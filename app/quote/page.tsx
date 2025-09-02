@@ -33,7 +33,7 @@ const services: Service[] = [
     id: "block-paving",
     title: "Block Paving",
     description: "Premium block paving with extensive design options and patterns. Perfect for Edinburgh's traditional properties.",
-    image: "/images/DJI_0164.jpg",
+    image: "/images/IMG_5610.JPG",
     priceRange: "£65-120 per m²",
     features: ["Herringbone & basketweave patterns", "Premium granite blocks", "Excellent durability", "Traditional Edinburgh style"]
   },
@@ -41,7 +41,7 @@ const services: Service[] = [
     id: "resin",
     title: "Resin Driveways", 
     description: "Modern, permeable resin-bound surfaces in a range of finishes. SUDS compliant for Edinburgh planning.",
-    image: "/images/DJI_0225.jpg",
+    image: "/images/IMG_5624.JPG",
     priceRange: "£75-140 per m²",
     features: ["Permeable & eco-friendly", "Wide color selection", "Low maintenance", "Modern aesthetic"]
   },
@@ -49,7 +49,7 @@ const services: Service[] = [
     id: "pattern-imprinted",
     title: "Pattern Imprinted Concrete",
     description: "Decorative concrete driveways with authentic stone effects. Cost-effective premium appearance.",
-    image: "/images/DJI_0207.jpg",
+    image: "/images/IMG_5625.JPG",
     priceRange: "£60-100 per m²", 
     features: ["Stone & brick effects", "Durable concrete base", "Cost-effective", "Quick installation"]
   },
@@ -57,7 +57,7 @@ const services: Service[] = [
     id: "tarmac",
     title: "Tarmac Driveways",
     description: "Professional tarmac installation for a smooth, durable surface. Great value for larger driveways.",
-    image: "/images/DJI_0102.jpg",
+    image: "/images/IMG_5626.JPG",
     priceRange: "£35-65 per m²",
     features: ["Smooth finish", "Quick installation", "Cost-effective", "Low maintenance"]
   }
@@ -753,7 +753,7 @@ const Success: React.FC<StepProps> = ({ data }) => {
         <div className="flex items-center justify-center mb-6">
           <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-[#CCA873]">
             <Image
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?fit=crop&w=150&h=150&q=80"
+              src="/images/IMG_5616.JPG"
               alt="Darren Inglis - Senior Surveyor"
               fill
               className="object-cover"
@@ -776,7 +776,7 @@ const Success: React.FC<StepProps> = ({ data }) => {
             <div className="flex flex-col items-center p-4 rounded-lg bg-black/50 border border-[#CCA873]/20">
               <Phone className="h-6 w-6 text-[#CCA873] mb-2" />
               <p className="text-gray-400 text-sm">Direct Line</p>
-              <p className="text-white font-medium">0131 555 5555</p>
+              <p className="text-white font-medium">0800 135 7000</p>
             </div>
             <div className="flex flex-col items-center p-4 rounded-lg bg-black/50 border border-[#CCA873]/20">
               <Mail className="h-6 w-6 text-[#CCA873] mb-2" />
