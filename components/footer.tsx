@@ -179,10 +179,16 @@ export function Footer() {
                   href="https://builtproper.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-gray-300 hover:text-[#CCA873] text-sm transition-colors flex items-center group"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-gray-800/50 to-gray-900/50 border border-gray-700 hover:border-[#CCA873] px-4 py-2 rounded-full text-sm transition-all hover:shadow-lg hover:shadow-[#CCA873]/20 group"
                 >
-                  This site is Built Proper 
-                  <ArrowRight className="h-3 w-3 ml-1 group-hover:translate-x-1 transition-transform" />
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                  </span>
+                  <span className="text-gray-300">This site was</span>
+                  <span className="text-[#CCA873] font-bold">BUILT PROPER</span>
+                  <span className="text-gray-500">✓</span>
+                  <ArrowRight className="h-3 w-3 ml-1 group-hover:translate-x-1 transition-transform text-gray-500" />
                 </a>
               </div>
             </div>
