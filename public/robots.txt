@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Prevent indexing of admin routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /quote/success
+
+# Allow all bots to index main content
+Allow: /about
+Allow: /services
+Allow: /portfolio
+Allow: /testimonials
+Allow: /contact
+Allow: /guides
+Allow: /areas
+Allow: /quote
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://hallmarkdriveways.com/sitemap.xml

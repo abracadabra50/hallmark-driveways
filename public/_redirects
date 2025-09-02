@@ -1,0 +1,9 @@
+# Netlify redirects file for form handling
+# Handle form submissions
+/contact-form  /contact/  200
+/quote-form    /quote/    200
+
+# Handle trailing slashes for better SEO
+/areas/*       /areas/:splat/  301
+/guides/*      /guides/:splat/ 301
+/portfolio/*   /portfolio/:splat/ 301
