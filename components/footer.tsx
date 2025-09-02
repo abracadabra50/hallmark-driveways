@@ -179,9 +179,10 @@ export function Footer() {
                   href="https://builtproper.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-gray-300 hover:text-[#CCA873] text-sm transition-colors"
+                  className="text-gray-300 hover:text-[#CCA873] text-sm transition-colors flex items-center group"
                 >
-                  A Built Proper Site ↗
+                  This site is Built Proper 
+                  <ArrowRight className="h-3 w-3 ml-1 group-hover:translate-x-1 transition-transform" />
                 </a>
               </div>
             </div>
