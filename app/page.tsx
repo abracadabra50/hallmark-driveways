@@ -92,10 +92,10 @@ const whyChooseUs = [
 ]
 
 const customerImages = [
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=150&h=150&q=80",
-  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=crop&w=150&h=150&q=80", 
-  "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fit=crop&w=150&h=150&q=80",
-  "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?fit=crop&w=150&h=150&q=80"
+  "/images/IMG_5616.JPG",
+  "/images/IMG_5617.JPG", 
+  "/images/IMG_5624.JPG",
+  "/images/IMG_5625.JPG"
 ]
 
 const testimonials = [

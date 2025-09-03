@@ -86,7 +86,7 @@ export function Navbar() {
                 <span>info@hallmarkdriveways.com</span>
               </a>
               <a 
-                href="tel:01315555555" 
+                href="tel:08001357000" 
                 className="flex items-center space-x-2 hover:text-[#CCA873] transition-colors"
               >
                 <Phone className="h-4 w-4 text-[#CCA873]" />
@@ -199,7 +199,7 @@ export function Navbar() {
 
                     <div className="pt-4 border-t border-[#CCA873]/20 space-y-4">
                       <a 
-                        href="tel:01315555555" 
+                        href="tel:08001357000" 
                         className="flex items-center space-x-3 text-gray-300 hover:text-[#CCA873] transition-colors"
                       >
                         <Phone className="h-5 w-5 text-[#CCA873]" />

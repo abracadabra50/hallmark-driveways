@@ -16,7 +16,7 @@
 "Edinburgh's premier driveway specialists serving all EH postcodes. Expert in conservation area requirements, Georgian/Victorian properties & Edinburgh Council planning permissions. Block paving, resin driveways, pattern concrete. 10-year guarantee. Free quotes & planning assistance included. 15+ years Edinburgh experience."
 
 **Address:** 64a Cumberland Street, Edinburgh EH3 6RE
-**Phone:** 0131-555-5555
+**Phone:** 0800-135-7000
 **Website:** https://hallmarkdriveways.com
 **Email:** info@hallmarkdriveways.com
 
@@ -186,7 +186,7 @@ Add ALL Edinburgh postcodes as service areas:
 "Thank you [Name] for choosing Hallmark Driveways for your [Edinburgh area] project. We appreciate your feedback and are always looking to improve our service. Please don't hesitate to contact us if there's anything else we can help with."
 
 **3-Star or Below:**
-"Thank you for your feedback, [Name]. We take all customer concerns seriously and would like to discuss this further. Please contact us at 0131-555-5555 so we can address your concerns and ensure your complete satisfaction."
+"Thank you for your feedback, [Name]. We take all customer concerns seriously and would like to discuss this further. Please contact us at 0800-135-7000 so we can address your concerns and ensure your complete satisfaction."
 
 ### 9. Google Posts Strategy
 
@@ -215,7 +215,7 @@ Add ALL Edinburgh postcodes as service areas:
 ### 10. Messaging Optimization
 
 **Auto-Reply Message:**
-"Thanks for your interest in Hallmark Driveways! We're Edinburgh's driveway specialists with 15+ years of local experience. We handle all Edinburgh Council planning permissions free of charge. For immediate assistance, call 0131-555-5555 or visit our website for a free quote."
+"Thanks for your interest in Hallmark Driveways! We're Edinburgh's driveway specialists with 15+ years of local experience. We handle all Edinburgh Council planning permissions free of charge. For immediate assistance, call 0800-135-7000 or visit our website for a free quote."
 
 **Welcome Message:**
 "Welcome to Hallmark Driveways - Edinburgh's trusted driveway specialists! Whether you're in the New Town, Morningside, Leith, or anywhere across Edinburgh, we're here to transform your outdoor space. Free quotes and planning permission assistance included!"

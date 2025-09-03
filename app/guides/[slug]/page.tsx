@@ -13,7 +13,7 @@ const guides: Record<string, Guide> = {
     author: {
       name: "Darren Inglis",
       role: "Managing Director",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=crop&w=150&h=150&q=80"
+      image: "/images/IMG_5616.JPG"
     },
     readTime: "8 min read",
     relatedGuides: [
@@ -55,7 +55,7 @@ const guides: Record<string, Guide> = {
     author: {
       name: "Darren Inglis",
       role: "Managing Director",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?fit=crop&w=150&h=150&q=80"
+      image: "/images/IMG_5617.JPG"
     },
     readTime: "12 min read",
     relatedGuides: [
@@ -161,7 +161,7 @@ const guides: Record<string, Guide> = {
     author: {
       name: "Darren Inglis",
       role: "Managing Director",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fit=crop&w=150&h=150&q=80"
+      image: "/images/IMG_5624.JPG"
     },
     readTime: "10 min read",
     relatedGuides: [
@@ -226,7 +226,7 @@ const guides: Record<string, Guide> = {
     author: {
       name: "Darren Inglis",
       role: "Managing Director",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?fit=crop&w=150&h=150&q=80"
+      image: "/images/IMG_5617.JPG"
     },
     readTime: "15 min read",
     relatedGuides: [
@@ -390,7 +390,7 @@ const guides: Record<string, Guide> = {
     author: {
       name: "Darren Inglis",
       role: "Managing Director",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?fit=crop&w=150&h=150&q=80"
+      image: "/images/IMG_5617.JPG"
     },
     readTime: "12 min read",
     relatedGuides: [

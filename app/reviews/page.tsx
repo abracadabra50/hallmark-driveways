@@ -84,7 +84,7 @@ const reviews = [
     date: "2025-08-02-15",
     service: "Tarmac Driveway",
     text: "Great value for money. The tarmac driveway was completed quickly and to a high standard. The team was friendly and professional throughout. Very happy with the result and would use them again.",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?fit=crop&w=150&h=150&q=80",
+    image: "/images/IMG_5625.JPG",
     verified: true,
     helpful: 12
   }
@@ -173,8 +173,8 @@ export default function ReviewsPage() {
                     className="border-[#CCA873] text-[#CCA873] hover:bg-[#CCA873]/10"
                     asChild
                   >
-                    <a href="tel:01315555555">
-                      <Phone className="mr-2" /> Call 0131 555 5555
+                    <a href="tel:08001357000">
+                      <Phone className="mr-2" /> Call 0800 135 7000
                     </a>
                   </LogoButton>
                 </div>

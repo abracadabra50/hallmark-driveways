@@ -29,13 +29,13 @@ export function GuidePageClient({ guide }: { guide: Guide | undefined }) {
     {
       title: "Resin Driveways: The Modern Solution for Edinburgh Homes",
       slug: "resin-driveways-guide",
-      image: "https://images.unsplash.com/photo-1617224908579-c92008fc08bb?auto=format&fit=crop&w=400&q=80",
+      image: "/images/IMG_5630.JPG",
       readTime: "10 min read"
     },
     {
       title: "Winter Maintenance for Scottish Driveways",
       slug: "winter-driveway-maintenance", 
-      image: "https://images.unsplash.com/photo-1621112904887-419379ce6824?auto=format&fit=crop&w=400&q=80",
+      image: "/images/IMG_5632.JPG",
       readTime: "8 min read"
     }
   ]
@@ -238,7 +238,7 @@ export function GuidePageClient({ guide }: { guide: Guide | undefined }) {
                     variant="outline" 
                     className="border-[#CCA873] text-[#CCA873] hover:bg-[#CCA873]/10 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 w-full sm:w-auto"
                   >
-                    <Phone className="mr-2" /> Call 0131 555 5555
+                    <Phone className="mr-2" /> Call 0800 135 7000
                   </LogoButton>
                 </div>
               </div>

@@ -10,7 +10,7 @@ const posts = [
   {
     title: "The Ultimate Guide to Block Paving: Materials, Patterns, and Installation",
     excerpt: "Discover everything you need to know about block paving, from choosing the right materials to understanding installation processes and maintenance requirements.",
-    image: "https://images.unsplash.com/photo-1626813822281-73c1c5e7c1dd?auto=format&fit=crop&w=800&q=80",
+    image: "/images/IMG_5627.JPG",
     category: "Guide",
     date: "March 15, 2024",
     slug: "ultimate-guide-block-paving"
@@ -18,7 +18,7 @@ const posts = [
   {
     title: "5 Benefits of Resin Driveways for Edinburgh Homes",
     excerpt: "Learn why resin-bound driveways are becoming increasingly popular in Edinburgh and how they can add value to your property.",
-    image: "https://images.unsplash.com/photo-1617224908579-c92008fc08bb?auto=format&fit=crop&w=800&q=80",
+    image: "/images/IMG_5628.JPG",
     category: "Tips",
     date: "March 10, 2024",
     slug: "benefits-resin-driveways"
@@ -26,7 +26,7 @@ const posts = [
   {
     title: "How to Maintain Your Driveway Through Scottish Winters",
     excerpt: "Essential maintenance tips to protect your driveway from harsh winter conditions and ensure it stays looking great year-round.",
-    image: "https://images.unsplash.com/photo-1621112904887-419379ce6824?auto=format&fit=crop&w=800&q=80",
+    image: "/images/IMG_5629.JPG",
     category: "Maintenance",
     date: "March 5, 2024",
     slug: "driveway-winter-maintenance"

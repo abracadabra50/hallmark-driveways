@@ -176,8 +176,8 @@ export default function TarmacPage() {
                     className="border-[#CCA873] text-[#CCA873] hover:bg-[#CCA873]/10"
                     asChild
                   >
-                    <a href="tel:01315555555">
-                      <Phone className="mr-2" /> Call 0131 555 5555
+                    <a href="tel:08001357000">
+                      <Phone className="mr-2" /> Call 0800 135 7000
                     </a>
                   </LogoButton>
                 </div>
@@ -360,8 +360,8 @@ export default function TarmacPage() {
                 className="border-[#CCA873] text-[#CCA873] hover:bg-[#CCA873]/10"
                 asChild
               >
-                <a href="tel:01315555555">
-                  <Phone className="mr-2" /> Call 0131 555 5555
+                <a href="tel:08001357000">
+                  <Phone className="mr-2" /> Call 0800 135 7000
                 </a>
               </LogoButton>
             </div>

@@ -115,7 +115,7 @@ export function ProjectPage({ project }: { project: Project | undefined }) {
                     variant="outline" 
                     className="border-[#CCA873] text-[#CCA873] hover:bg-[#CCA873]/10 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 w-full sm:w-auto"
                   >
-                    <Phone className="mr-2" /> Call 0131 555 5555
+                    <Phone className="mr-2" /> Call 0800 135 7000
                   </LogoButton>
                 </div>
               </motion.div>
@@ -197,7 +197,7 @@ export function ProjectPage({ project }: { project: Project | undefined }) {
                 variant="outline" 
                 className="border-[#CCA873] text-[#CCA873] hover:bg-[#CCA873]/10 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 w-full sm:w-auto"
               >
-                <Phone className="mr-2" /> Call 0131 555 5555
+                <Phone className="mr-2" /> Call 0800 135 7000
               </LogoButton>
             </div>
           </div>

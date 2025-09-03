@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     default: 'Edinburgh Driveway Company #1 | Block Paving, Resin & Concrete Specialists | Hallmark Driveways',
     template: '%s | Hallmark Driveways Edinburgh - Premium Driveway Installation'
   },
-  description: 'Edinburgh\'s #1 rated driveway company. Expert installation of block paving, resin driveways & pattern imprinted concrete. 10-year guarantee. Free quotes across Edinburgh & Lothians. Call 0131 555 5555',
+  description: 'Edinburgh\'s #1 rated driveway company. Expert installation of block paving, resin driveways & pattern imprinted concrete. 10-year guarantee. Free quotes across Edinburgh & Lothians. Call 0800 135 7000',
   keywords: [
     // Primary keywords
     'driveway company edinburgh',
@@ -169,6 +169,11 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#CCA873" />
+        
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />

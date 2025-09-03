@@ -7,7 +7,7 @@ const posts: BlogData = {
   "ultimate-guide-block-paving": {
     title: "The Ultimate Guide to Block Paving: Materials, Patterns, and Installation",
     excerpt: "Discover everything you need to know about block paving, from choosing the right materials to understanding installation processes and maintenance requirements.",
-    image: "https://images.unsplash.com/photo-1626813822281-73c1c5e7c1dd?auto=format&fit=crop&w=2000&q=80",
+    image: "/images/IMG_5626.JPG",
     category: "Guide",
     date: "March 15, 2024",
     author: "John Smith",
