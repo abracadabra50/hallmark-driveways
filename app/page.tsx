@@ -240,6 +240,9 @@ export default function Home() {
                           width={40}
                           height={40}
                           className="object-cover"
+                          priority={i < 2}
+                          loading={i < 2 ? "eager" : "lazy"}
+                          sizes="40px"
                         />
                       </div>
                     ))}
