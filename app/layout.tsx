@@ -178,6 +178,10 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
+        {/* Preload critical resources */}
+        <link rel="preload" href="/images/hero-mobile.jpg" as="image" media="(max-width: 768px)" fetchPriority="high" />
+        <link rel="preload" href="/images/hero-desktop.jpg" as="image" media="(min-width: 769px)" fetchPriority="high" />
+        
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

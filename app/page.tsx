@@ -167,7 +167,19 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* Hero Section */}
       <section className="relative min-h-[100svh] bg-black">
-        <div className="absolute inset-0 bg-[url('/images/DJI_0164.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0">
+          <picture>
+            <source media="(max-width: 768px)" srcSet="/images/hero-mobile.jpg" />
+            <source media="(min-width: 769px)" srcSet="/images/hero-desktop.jpg" />
+            <img 
+              src="/images/hero-desktop.jpg" 
+              alt="Premium driveway installation Edinburgh"
+              className="w-full h-full object-cover"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
           <div className="absolute inset-0 bg-black/80" />
         </div>
         
@@ -176,12 +188,7 @@ export default function Home() {
           
           <div className="container mx-auto px-4 min-h-[calc(100svh-5rem)] flex items-start pt-32">
             <div className="max-w-4xl">
-              <motion.div
-                initial="hidden"
-                animate="visible"
-                variants={fadeIn}
-                transition={{ duration: 0.6 }}
-              >
+              <div>
                 <div className="inline-block px-4 py-2.5 rounded-full bg-[#CCA873]/10 text-[#CCA873] text-base sm:text-lg font-medium tracking-wide mb-6">
                   🏆 Edinburgh's #1 Rated Driveway Company
                 </div>
@@ -259,7 +266,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             </div>
           </div>
         </div>
