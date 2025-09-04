@@ -178,9 +178,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
-        {/* Preload ultra-critical instant hero */}
-        <link rel="preload" href="/images/hero-instant.jpg" as="image" fetchPriority="high" />
-        <link rel="preload" href="/images/hero-desktop.jpg" as="image" media="(min-width: 1024px)" />
+        {/* NO hero image preloading - loads after page renders */}
         
         {/* Font optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
@@ -190,13 +188,9 @@ export default function RootLayout({
         
         {/* Critical inline CSS for instant render */}
         <style dangerouslySetInnerHTML={{__html: `
-          .hero-instant{min-height:100svh;background-size:cover;background-position:center;position:relative}
-          .bg-black{background-color:#000}
-          .text-white{color:#fff}
-          .relative{position:relative}
-          .absolute{position:absolute}
-          .inset-0{top:0;right:0;bottom:0;left:0}
-          .z-20{z-index:20}
+          body{margin:0;background:#000;color:#fff}
+          .min-h-screen{min-height:100vh}
+          .bg-gradient-to-br{background:linear-gradient(to bottom right,rgba(146,64,14,0.2),#000,rgba(124,45,18,0.2))}
         `}} />
         
         {/* DNS prefetch for performance */}
