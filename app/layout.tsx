@@ -178,15 +178,26 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
-        {/* Preload only critical hero image */}
-        <link rel="preload" href="/images/hero-ultra-mobile.jpg" as="image" fetchPriority="high" />
-        <link rel="preload" href="/images/hero-desktop.jpg" as="image" media="(min-width: 1024px)" fetchPriority="high" />
+        {/* Preload ultra-critical instant hero */}
+        <link rel="preload" href="/images/hero-instant.jpg" as="image" fetchPriority="high" />
+        <link rel="preload" href="/images/hero-desktop.jpg" as="image" media="(min-width: 1024px)" />
         
         {/* Font optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" /></noscript>
+        
+        {/* Critical inline CSS for instant render */}
+        <style dangerouslySetInnerHTML={{__html: `
+          .hero-instant{min-height:100svh;background-size:cover;background-position:center;position:relative}
+          .bg-black{background-color:#000}
+          .text-white{color:#fff}
+          .relative{position:relative}
+          .absolute{position:absolute}
+          .inset-0{top:0;right:0;bottom:0;left:0}
+          .z-20{z-index:20}
+        `}} />
         
         {/* DNS prefetch for performance */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />

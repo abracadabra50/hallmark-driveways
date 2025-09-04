@@ -166,7 +166,14 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Hero Section */}
-      <section className="relative min-h-[100svh] bg-black bg-[url('/images/hero-ultra-mobile.jpg')] bg-cover bg-center">
+      <section 
+        className="relative min-h-[100svh] bg-black bg-cover bg-center"
+        style={{
+          backgroundImage: `url('/images/hero-instant.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      >
         <div className="absolute inset-0 bg-black/80" />
         <div className="hidden md:block absolute inset-0">
           <img 
