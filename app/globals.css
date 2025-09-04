@@ -155,8 +155,14 @@ img, video {
   to { opacity: 1; }
 }
 
-.animate-fadeIn {
-  animation: fadeIn 0.5s ease-in-out;
+/* Hero section with tiny instant image */
+.hero-section {
+  background: #0a0a0a;
+  background-image: 
+    linear-gradient(135deg, rgba(146,64,14,0.15) 0%, rgba(0,0,0,0.8) 50%, rgba(124,45,18,0.15) 100%),
+    url('/images/hero-instant.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Enhanced focus styles for accessibility */

@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { useRouter } from "next/navigation"
@@ -152,7 +152,6 @@ export default function Home() {
   const controls = useAnimation()
   const [ref, inView] = useInView()
   const router = useRouter()
-  const [heroLoaded, setHeroLoaded] = useState(false)
 
   useEffect(() => {
     if (inView) {
@@ -160,32 +159,14 @@ export default function Home() {
     }
   }, [controls, inView])
 
-  // Load hero image AFTER critical render
-  useEffect(() => {
-    requestAnimationFrame(() => {
-      setHeroLoaded(true)
-    })
-  }, [])
-
   const handleGetQuote = () => {
     router.push('/quote')
   }
 
   return (
     <main id="main-content" className="min-h-screen bg-black text-white">
-      {/* Hero Section - INSTANT RENDER WITH NO IMAGES */}
-      <section className="relative min-h-[100svh] bg-gradient-to-br from-amber-900/20 via-black to-amber-950/20">
-        {/* Hero image loads AFTER page renders */}
-        {heroLoaded && (
-          <div 
-            className="absolute inset-0 animate-fadeIn"
-            style={{
-              backgroundImage: `url('/images/hero-desktop.jpg')`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-          />
-        )}
+      {/* Hero Section - CSS-only with tiny image */}
+      <section className="hero-section relative min-h-[100svh]">
         <div className="absolute inset-0 bg-black/70" />
         
         <div className="relative z-20">

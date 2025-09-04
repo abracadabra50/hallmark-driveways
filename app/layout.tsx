@@ -178,7 +178,8 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
-        {/* NO hero image preloading - loads after page renders */}
+        {/* Preload tiny instant hero */}
+        <link rel="preload" href="/images/hero-instant.jpg" as="image" fetchPriority="high" />
         
         {/* Font optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
