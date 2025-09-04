@@ -155,37 +155,8 @@ img, video {
   to { opacity: 1; }
 }
 
-/* Hero section with tiny instant image */
-.hero-section {
-  background: #0a0a0a;
-  background-image: 
-    linear-gradient(135deg, rgba(146,64,14,0.15) 0%, rgba(0,0,0,0.8) 50%, rgba(124,45,18,0.15) 100%),
-    url('/images/hero-instant.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-/* Enhanced focus styles for accessibility */
-*:focus-visible {
-  outline: 2px solid #CCA873;
-  outline-offset: 2px;
-}
-
-/* Skip to main content link for screen readers */
-.skip-to-main {
-  position: absolute;
-  left: -9999px;
-  z-index: 999;
-  padding: 1rem;
-  background: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-.skip-to-main:focus {
-  left: 50%;
-  transform: translateX(-50%);
-  top: 1rem;
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 /* Custom gradient backgrounds */

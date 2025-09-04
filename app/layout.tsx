@@ -178,8 +178,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
-        {/* Preload tiny instant hero */}
-        <link rel="preload" href="/images/hero-instant.jpg" as="image" fetchPriority="high" />
+        {/* NO hero image preloading - loads after page renders */}
         
         {/* Font optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
@@ -261,9 +260,6 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-          <a href="#main-content" className="skip-to-main">
-            Skip to main content
-          </a>
           {children}
           <Footer />
           <Toaster />
