@@ -20,11 +20,15 @@ body {
 }
 
 /* Critical hero styles for instant render */
-.hero-instant {
+.hero-section {
   min-height: 100svh;
   background-color: #000;
+  background-image: 
+    linear-gradient(135deg, rgba(146,64,14,0.2) 0%, rgba(0,0,0,0.7) 50%, rgba(124,45,18,0.2) 100%),
+    url('/images/hero-instant.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 

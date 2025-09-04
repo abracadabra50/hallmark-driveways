@@ -178,7 +178,8 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
-        {/* NO hero image preloading - loads after page renders */}
+        {/* Preload critical hero image with highest priority */}
+        <link rel="preload" href="/images/hero-instant.jpg" as="image" fetchPriority="high" />
         
         {/* Font optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
@@ -189,7 +190,12 @@ export default function RootLayout({
         <style dangerouslySetInnerHTML={{__html: `
           body{margin:0;background:#000;color:#fff}
           .min-h-screen{min-height:100vh}
-          .bg-gradient-to-br{background:linear-gradient(to bottom right,rgba(146,64,14,0.2),#000,rgba(124,45,18,0.2))}
+          .hero-section{
+            min-height:100svh;
+            background:#000 url('/images/hero-instant.jpg') center/cover no-repeat;
+            background-image:linear-gradient(135deg,rgba(146,64,14,0.2) 0%,rgba(0,0,0,0.7) 50%,rgba(124,45,18,0.2) 100%),url('/images/hero-instant.jpg');
+            position:relative
+          }
         `}} />
         
         {/* DNS prefetch for performance */}
