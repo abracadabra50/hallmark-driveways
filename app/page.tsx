@@ -166,28 +166,17 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Hero Section */}
-      <section className="relative min-h-[100svh] bg-black" style={{
-        backgroundImage: `url('/images/hero-tiny.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }}>
-        <div className="absolute inset-0">
-          <picture>
-            <source media="(max-width: 768px)" srcSet="/images/hero-mobile.jpg" />
-            <source media="(min-width: 769px)" srcSet="/images/hero-desktop.jpg" />
-            <img 
-              src="/images/hero-desktop.jpg" 
-              alt="Premium driveway installation Edinburgh"
-              className="w-full h-full object-cover opacity-0"
-              loading="eager"
-              fetchPriority="high"
-              decoding="async"
-              onLoad={(e) => {
-                (e.target as HTMLImageElement).style.opacity = '1';
-                (e.target as HTMLImageElement).style.transition = 'opacity 0.3s ease-in-out';
-              }}
-            />
-          </picture>
+      <section className="relative min-h-[100svh] bg-black bg-[url('/images/hero-ultra-mobile.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-black/80" />
+        <div className="hidden md:block absolute inset-0">
+          <img 
+            src="/images/hero-desktop.jpg" 
+            alt="Premium driveway installation Edinburgh"
+            className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+            decoding="sync"
+          />
           <div className="absolute inset-0 bg-black/80" />
         </div>
         

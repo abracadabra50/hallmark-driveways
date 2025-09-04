@@ -178,11 +178,9 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
-        {/* Preload critical resources - ultra aggressive */}
-        <link rel="preload" href="/images/hero-tiny.jpg" as="image" fetchPriority="high" />
-        <link rel="preload" href="/images/hero-mobile.jpg" as="image" media="(max-width: 768px)" />
-        <link rel="preload" href="/images/hero-desktop.jpg" as="image" media="(min-width: 769px)" />
-        <link rel="preload" href="/logo.svg" as="image" />
+        {/* Preload only critical hero image */}
+        <link rel="preload" href="/images/hero-ultra-mobile.jpg" as="image" fetchPriority="high" />
+        <link rel="preload" href="/images/hero-desktop.jpg" as="image" media="(min-width: 1024px)" fetchPriority="high" />
         
         {/* Font optimization */}
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
