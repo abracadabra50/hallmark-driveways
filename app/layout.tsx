@@ -178,13 +178,17 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         
-        {/* Preload critical resources */}
-        <link rel="preload" href="/images/hero-mobile.jpg" as="image" media="(max-width: 768px)" fetchPriority="high" />
-        <link rel="preload" href="/images/hero-desktop.jpg" as="image" media="(min-width: 769px)" fetchPriority="high" />
+        {/* Preload critical resources - ultra aggressive */}
+        <link rel="preload" href="/images/hero-tiny.jpg" as="image" fetchPriority="high" />
+        <link rel="preload" href="/images/hero-mobile.jpg" as="image" media="(max-width: 768px)" />
+        <link rel="preload" href="/images/hero-desktop.jpg" as="image" media="(min-width: 769px)" />
+        <link rel="preload" href="/logo.svg" as="image" />
         
-        {/* Preconnect to external domains */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* Font optimization */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" /></noscript>
         
         {/* DNS prefetch for performance */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
