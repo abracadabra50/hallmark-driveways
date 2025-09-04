@@ -261,6 +261,9 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
+          <a href="#main-content" className="skip-to-main">
+            Skip to main content
+          </a>
           {children}
           <Footer />
           <Toaster />

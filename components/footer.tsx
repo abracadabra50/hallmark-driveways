@@ -50,7 +50,7 @@ export function Footer() {
           <div className="absolute right-0 bottom-0 opacity-10">
             <Image
               src="/logo.svg"
-              alt=""
+              alt="Hallmark Driveways Edinburgh logo"
               width={400}
               height={100}
               className="w-96 h-auto object-contain"

@@ -172,7 +172,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main id="main-content" className="min-h-screen bg-black text-white">
       {/* Hero Section - INSTANT RENDER WITH NO IMAGES */}
       <section className="relative min-h-[100svh] bg-gradient-to-br from-amber-900/20 via-black to-amber-950/20">
         {/* Hero image loads AFTER page renders */}
